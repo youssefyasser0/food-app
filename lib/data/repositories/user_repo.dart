@@ -50,7 +50,6 @@ class UserRepo {
       return userModel;
 
     }catch(e){
-      print("in user_repo catch error ${e.toString()}");
       return null;
     }
   }
@@ -97,7 +96,6 @@ class UserRepo {
      return userModel;
 
     }catch(e){
-      print("in user_repo catch error ${e.toString()}");
       return null;
     }
 

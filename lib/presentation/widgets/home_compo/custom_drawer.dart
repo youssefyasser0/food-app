@@ -49,12 +49,12 @@ class CustomDrawer extends StatelessWidget {
                       ),
                       borderRadius: BorderRadius.circular(10)
                   ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(10.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(10.0),
                     child: Row(
                       children: [
                         Padding(
-                          padding: const EdgeInsets.only(right: 14.0),
+                          padding: EdgeInsets.only(right: 14.0),
                           child: Icon(
                             FontAwesomeIcons.cartShopping,
                             size: 22,
@@ -81,8 +81,8 @@ class CustomDrawer extends StatelessWidget {
                       ),
                       borderRadius: BorderRadius.circular(10)
                     ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(10.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(10.0),
                     child: Row(
                       children: [
                         Padding(
@@ -116,7 +116,7 @@ class CustomDrawer extends StatelessWidget {
                       ),
                       borderRadius: BorderRadius.circular(10),
                       color: Colors.white,
-                      boxShadow: [
+                      boxShadow: const [
                         BoxShadow(
                           color: secondButtonColor,
                           offset: Offset(1, 1),
@@ -124,8 +124,8 @@ class CustomDrawer extends StatelessWidget {
                         )
                       ]
                   ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(10.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(10.0),
                     child: Row(
                       children: [
                         Padding(

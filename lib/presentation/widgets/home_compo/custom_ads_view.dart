@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-
-import '../../../constants/colors.dart';
-import '../custom_button.dart';
 import '../custom_text.dart';
 
 class CustomAdsView extends StatelessWidget {
